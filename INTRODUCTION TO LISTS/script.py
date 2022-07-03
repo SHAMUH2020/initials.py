@@ -99,8 +99,36 @@ print(garden_waitlist)
 # Shrinking a List: Remove
 # We can remove elements in a list using the .remove() Python method.
 
-      
-      
+# Two-Dimensional (2D) Lists
+""" We’ve seen that the items in a list can be numbers or strings. Lists can contain other lists! We will commonly refer to these as two-dimensional (2D) lists. """
+heights = [["Jenny", 61], ["Alexus", 70], ["Sam", 67], ["Grace", 64], ["Vik", 68]]
 
+ages = [["Aaron", 15], ["Dhruti", 16]] # two-dimensional list
+      
+# Accessing 2D Lists
+""" Two-dimensional lists can be accessed similar to their one-dimensional counterpart. Instead of providing a single pair of brackets [ ] 
+we will use an additional set for each dimension past the first."""
+      
+#Your code below:
+class_name_test = [["Jenny", 90], ["Alexus", 85.5], ["Sam", 83], ["Ellie", 101.5]]
+print(class_name_test)
+
+sams_score = class_name_test[2][1]
+print(sams_score)
+
+ellies_score = class_name_test[-1][-1]
+print(ellies_score)
+      
+# Modifying 2D Lists
+# Now that we know how to access two-dimensional lists, modifying the elements should come naturally.
+      
+incoming_class = [["Kenny", "American", 9], ["Tanya", "Russian", 9], ["Madison", "Indian", 7]]
+print(incoming_class)
+
+incoming_class[2][2] = 8
+print(incoming_class)
+
+incoming_class[-3][-3] = "Ken"
+print(incoming_class)
 
 
