@@ -66,10 +66,39 @@ Fix the command by inserting brackets ([ and ]) so that it will run without erro
 # The correct line of code is: 
 broken_prices = [5, 3, 4, 5, 4] + [4]
 
+""" Accessing List Elements We are interviewing candidates for a job. We will call each candidate in order, represented by a Python list"""
 
+employees = ["Michael", "Dwight", "Jim", "Pam", "Ryan", "Andy", "Robert"]
 
+employee_four = (employees[3])
+print(employees[8]) # Selecting an element that does not exist produces an IndexError.
 
+# The correct line of code is:
+print(employees[6]
 
+# Accessing List Elements: Negative Index 
+# What if we want to select the last element of a list?
+# We can use the index -1 to select the last item of a list, even when we don’t know how many elements are in a list.
+
+shopping_list = ["eggs", "butter", "milk", "cucumbers", "juice", "cereal"]
+
+last_element = shopping_list[-1]
+index5_element = shopping_list[5]
+print(last_element, index5_element)
+
+# Modifying List Elements
+# Lets modify the garden waitlist
+garden_waitlist = ["Jiho", "Adam", "Sonny", "Alisha"]
+
+garden_waitlist[1] = "Calla"
+print(garden_waitlist)
+
+garden_waitlist[-1] = "Alex"
+print(garden_waitlist)
+      
+# Shrinking a List: Remove
+# We can remove elements in a list using the .remove() Python method.
+      
 
 
 
