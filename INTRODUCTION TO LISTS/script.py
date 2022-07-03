@@ -98,6 +98,8 @@ print(garden_waitlist)
       
 # Shrinking a List: Remove
 # We can remove elements in a list using the .remove() Python method.
+
+      
       
 
 
