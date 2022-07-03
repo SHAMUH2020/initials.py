@@ -14,3 +14,62 @@ heights = [61, 70, 67, 64, 65]
 # The correct line of code is:
 broken_heights = [65, 71, 59, 62]
 
+""" What can a List contain?
+Lists can contain more than just numbers."""
+
+ints_and_strings = [1, 2, 3, "four", "five", "six"]
+sam_height_and_testscore = ["Sam", 67, 85.5, True]
+
+""" Empty Lists
+A list doesn’t have to contain anything."""
+my_empty_list = []
+
+""" List Methods
+As we start exploring lists further in the next exercises, we will encounter the concept of a method.
+In Python, for any specific data-type ( strings, booleans, lists, etc. ) 
+there is built-in functionality that we can use to create, manipulate, and even delete our data. We call this built-in functionality a method.
+For lists, methods will follow the form of list_name.method(). Some methods will require an input value that will go between the parenthesis of the method ( )."""
+
+example_list = [1, 2, 3, 4]
+
+#Using Append
+example_list.append(5)
+print(example_list)
+
+#Using Remove
+example_list.remove(5)
+print(example_list)
+
+""" Growing a List: Append
+We can add a single element to a list using the .append() Python method."""
+# Example 2 Using Append
+orders = ["daisies", "periwinkle"]
+print(orders)
+orders.append("tulips")
+orders.append("roses")
+print(orders)
+
+# Growing a List: Plus (+)
+# When we want to add multiple items to a list, we can use + to combine two lists (this is also known as concatenation).
+orders = ["daisy", "buttercup", "snapdragon", "gardenia", "lily"]
+
+# Create new orders here:
+new_orders = ["lilac", "iris"]
+print(orders + new_orders)
+orders_combined = orders + new_orders
+
+# broken_prices = [5, 3, 4, 5, 4] + 4 
+""" Remove the # and whitespace in front of the list broken_prices. 
+If you run this code, you’ll get an error:  TypeError: can only concatenate list (not "int") to list 
+Fix the command by inserting brackets ([ and ]) so that it will run without errors. """
+
+# The correct line of code is: 
+broken_prices = [5, 3, 4, 5, 4] + [4]
+
+
+
+
+
+
+
+
